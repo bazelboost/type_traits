@@ -15,6 +15,8 @@ cc_library(
 	],
 	deps = [
 		"@com_github_bazelboost_config//:config",
-		"@com_github_bazelboost_detail//:detail"
+		"@com_github_bazelboost_preprocessor//:preprocessor",
+		"@com_github_bazelboost_static_assert//:static_assert",
+		"@com_github_bazelboost_core//:core"
 	],
 )
